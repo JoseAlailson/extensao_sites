@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Salvar Link e Texto",
+  "version": "1.0",
+  "description": "Coleta o link da página atual, permite adicionar uma descrição e salva em um arquivo .txt",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
